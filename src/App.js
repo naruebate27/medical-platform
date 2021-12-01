@@ -38,7 +38,7 @@ const App = () => {
           collapsible
           collapsed={collapsed} 
           collapsedWidth={screen >= 992 ? 170 : 55 } 
-          width={screen >= 1300 ? 500 : 380} 
+          width={screen >= 2000 ? 500 : 380} 
           onCollapse={onCollapse}
           trigger={null}
         >

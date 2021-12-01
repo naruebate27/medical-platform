@@ -1,6 +1,7 @@
 import React from "react";
 import Footer1 from "../../assets/footer1.png";
 import Footer2 from "../../assets/LOGO_TCEL.png";
+import Footer3 from "../../assets/footer3.png";
 // import Line from "../../assets/line-brands.png";
 import './Footer.css'
 
@@ -12,6 +13,7 @@ const Footer = () => {
                     <p className="text">
                         สนับสนุนโดย
                     </p>
+                    <img className="Footer3" src={Footer3} alt="Footer3" />&nbsp;&nbsp;
                     <img className="Footer2" src={Footer2} alt="Footer2" />&nbsp;&nbsp;
                     <img className="Footer1" src={Footer1} alt="Footer1" /> 
                 </div>

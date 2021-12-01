@@ -2,6 +2,7 @@ import React ,{ useState} from "react";
 import { Modal, Row, Col } from 'react-bootstrap';
 import ReactPlayer from 'react-player'
 import BackgroundImage from "../assets/bg.png";
+import poster from "../assets/poster.jpg"
 import Footer from '../components/footer/Footer';
 import video from "../assets/Plasma05.mp4"
 function Plasma() {
@@ -45,10 +46,11 @@ function Plasma() {
                             width='100%'
                             height='100%'
                         />
-                    </div>
-                    <div style={{display:"inline"}}>
-                        <span style={{fontWeight: "bold", fontSize: "20px"}}>โครงการศึกษาประสิทธภาพในการรักษาแผลโดยใช้</span>
-                        <span style={{fontWeight: "bold" ,color:"#FB6D3A" ,fontSize:"18px"}}>พลาสมาอุณหภูมิต่ำที่ความดันบรรยากาศ ( แอลทีเอพีพี )</span>
+                    </div><br/>
+                    <img className="poster" src={poster} alt="poster" /><br/>
+                    <div style={{display:"inline" }}>
+                        <span style={{fontWeight: "bold", fontSize: "20px" }}>โครงการศึกษาประสิทธภาพในการรักษาแผลโดยใช้</span>
+                        <span style={{fontWeight: "bold", color:"#FB6D3A" ,fontSize:"18px"}}>พลาสมาอุณหภูมิต่ำที่ความดันบรรยากาศ ( แอลทีเอพีพี )</span>
                     </div><br/>
                     <div style={{display:"inline"}}>
                         <span style={{color:"#503E9D" ,fontWeight: "bold" ,fontSize: "18px"}}>รับสมัครอาสาสมัคร</span>
